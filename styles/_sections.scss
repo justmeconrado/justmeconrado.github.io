@@ -1,0 +1,41 @@
+.wrapper {
+  /*min-height: calc(100% - 4rem);*/
+  margin: 20px;
+}
+section {
+  color: #545454;
+}
+h2 {
+  color: #84e484;
+}
+.img_skills {
+  display: block;
+  margin: auto;
+}
+.skills {
+  .img_html5 {
+    display: inline;
+    width: 64px;
+    height: 64px;
+  }
+  .img_css {
+    display: inline;
+    width: 64px;
+    height: 64px;
+  }
+  .img_sass {
+    display: inline;
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.contact {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  height: 4rem;
+  background-color: #e2e2e2;
+}

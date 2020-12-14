@@ -1,0 +1,55 @@
+.img_profile {
+  display: block;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  z-index: 1;
+}
+
+header {
+  margin: 20px;
+  h1 {
+    font-size: 2.5rem;
+    color: #84e484;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    span {
+      display: inline-block;
+      position: relative;
+      color: #545454;
+      margin: 0px;
+    }
+  }
+  h6 {
+    display: inline-block;
+    color: grey;
+    font-size: 1rem;
+    margin-left: 3px;
+  }
+  nav {
+    position: relative;
+    ul {
+      list-style-type: unset;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+      li {
+        list-style: none;
+
+        .link {
+          text-decoration: none;
+          color: #8484e4;
+          transition: color 0.2s ease-in, transform 0.4s linear;
+
+          &:hover {
+            color: #84e484;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
